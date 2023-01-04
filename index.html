@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style.css" />
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+            <h1>TIC TAC TOE</h1>
+   
+            <p>Game starts by just Tap on box</p>
+            <ul>
+                <li>First Player starts as <b>Player X</b></li>
+                <li>First Player starts as <b>Player O</b></li>
+            </ul>
+        </header>
+
+       <div class="container align-center">
+           <div class="row">
+                <button class="button-option" id="b1" onclick="game(this)"></button>
+                <button class="button-option" id="b2" onclick="game(this)"></button>
+                <button class="button-option" id="b3" onclick="game(this)"></button>
+           </div>
+           <div class="row">
+                <button class="button-option" id="b4" onclick="game(this)"></button>
+                <button class="button-option" id="b5" onclick="game(this)"></button>
+                <button class="button-option" id="b6" onclick="game(this)"></button>
+           </div>
+           <div class="row">
+                <button class="button-option" id="b7" onclick="game(this)"></button>
+                <button class="button-option" id="b8" onclick="game(this)"></button>
+                <button class="button-option" id="b9" onclick="game(this)"></button>
+           </div>
+       </div>
+       <button id="restart">Restart</button>
+   </div>
+
+   <div class="popup hide">
+       <p id="message">Sample Message</p>
+       <button id="new-game">New Game</button>
+   </div>
+    
+    <script src="./scripts/scripts.js"></script>
+</body>
+
+</html>
