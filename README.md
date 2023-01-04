@@ -2,7 +2,7 @@
 
 **DEMO :** https://sprightly-figolla-93fcb8.netlify.app/
 
-Developed a responsive website for Tic Tac Toe with Javascript where 2 user can play the game X and O.
+Developed a responsive website for Tic Tac Toe with JavaScript where 2 users can play the game X and O who matches the pattern horizontally, vertically, or diagonally wins.
 
 > **Technologies used:** HTML, CSS, JS, Bootstrap
 
