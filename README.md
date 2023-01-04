@@ -1,6 +1,6 @@
 # Tic Tac Toe Game with Javascript
 
-**DEMO :** https://sparkly-pixie-bb7ee1.netlify.app/
+**DEMO :** https://sprightly-figolla-93fcb8.netlify.app/
 
 Developed a responsive website for Tic Tac Toe with Javascript where 2 user can play the game X and O.
 
